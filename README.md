@@ -32,7 +32,7 @@ Este endpoint analiza la cantidad de citas registradas por consultorio y las com
 ### 4. Análisis Limpio
 **Ruta:** `GET /api/segmentos/analisis-limpio`
 
-Este endpoint presenta un análisis de las citas agrupadas por ubicación de los consultorios, excluyendo aquellas que se encuentran en estados como cancelada por paciente, cancelada por médico o no asistió. Permite analizar la información de las citas sin incluir estos registros.
+Este endpoint permite consultar la actividad de la clínica agrupada por ubicación de los consultorios, sin tener en cuenta las citas canceladas o aquellas en las que el paciente no asistió. De esta manera, se obtiene una visión de las citas que no pertenecen a esos estados y de los valores asociados a ellas.
 
 ### 5. Resumen Dinámico
 **Ruta:** `GET /api/operaciones/Resumen-Dinamico`
