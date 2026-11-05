@@ -17,12 +17,12 @@ En mi proyecto de **GeSaludAPI**, enfocado en la gestión de información de una
 ### 1. Clasificación Top
 **Ruta:** `GET /api/reportes/clasificacion-top`
 
-Este endpoint permite identificar las especialidades médicas cuyo promedio de valor de las citas es superior al promedio general de todas las citas registradas en la clínica. De esta manera, se pueden analizar las especialidades que presentan un mayor valor promedio por atención.
+Este endpoint permite conocer cuáles especialidades médicas de GeSalud tienen un mayor valor promedio por cita en comparación con el promedio general de la clínica. Esto facilita identificar las especialidades que generan un mayor recaudo promedio por atención.
 
 ### 2. Actores Estrella
 **Ruta:** `GET /api/analitica/actores-estrella`
 
-Este endpoint identifica a los pacientes cuyo valor acumulado en citas médicas supera el promedio del valor acumulado de todos los pacientes. Permite conocer cuáles pacientes representan una mayor actividad económica dentro del sistema.
+Este endpoint permite identificar a los pacientes que acumulan un mayor valor en sus citas médicas, comparando el valor total de sus atenciones con el promedio acumulado de los demás pacientes. Así, la clínica puede conocer qué pacientes presentan una mayor actividad económica dentro del sistema.
 
 ### 3. Desviación por Grupo
 **Ruta:** `GET /api/items/desviacion-grupo`
