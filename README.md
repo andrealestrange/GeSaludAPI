@@ -1,12 +1,13 @@
 ## 1. Documento de Homologación
 
-En mi proyecto de GeSaludAPI, orientado a la gestión y análisis de información de un Hospital, se establece la siguiente homologación de entidades:
+En mi proyecto de **GeSaludAPI**, enfocado en la gestión de información de una clínica, la Entidad Catálogo es especialidad, la Entidad Transaccional es cita, la Entidad Actor es paciente, el Recurso es consultorio, el Segmento es ubicacion y la Entidad de Estado es estadocita. La homologación de entidades se establece de la siguiente manera:
 
-| Concepto del taller | Entidad o elemento de GeSalud |
+
+| Concepto solicitado | Correspondencia en mi proyecto |
 |---|---|
-| Entidad Catálogo | especialidad |
-| Entidad Transaccional | cita |
-| Entidad Actor | paciente |
-| Elemento individual o recurso | consultorio |
-| Segmento o contexto | ubicación del consultorio |
-| Estado operativo | estadocita |
+| Entidad Catálogo | Especialidad (`especialidad`) |
+| Entidad Transaccional | Cita médica (`cita`) |
+| Entidad Actor | Paciente (`paciente`) |
+| Entidad de agrupación o recurso | Consultorio (`consultorio`) |
+| Entidad de contexto o segmento | Ubicación del consultorio (`consultorio.ubicacion`) |
+| Entidad de estado | Estado de la cita (`estadocita`) |
